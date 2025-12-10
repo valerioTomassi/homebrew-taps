@@ -5,21 +5,21 @@
 class Todototum < Formula
   desc "See the whole TODO picture. Scan your codebase and generate reports"
   homepage "https://github.com/valerioTomassi/todototum"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.0/todototum_1.0.0_darwin_amd64.tar.gz"
-      sha256 "3a30771c0d33706279057bfd340d58bb8da1eadf896f2239662fdb79dd34e430"
+      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.1/todototum_1.0.1_darwin_amd64.tar.gz"
+      sha256 "b2ed49c23e25680ea0049547e2515437ada85ba3161293957f7df84ec4c80e39"
 
       def install
         bin.install "todototum"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.0/todototum_1.0.0_darwin_arm64.tar.gz"
-      sha256 "038970d7c59b3e42ce1e7f7a493b62405d16b841bf68f2303655dbcdfe90c61f"
+      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.1/todototum_1.0.1_darwin_arm64.tar.gz"
+      sha256 "48aed18d68e7d7f2db7994da5a38f164a828440e86bed4af6a33faf58c7ce64c"
 
       def install
         bin.install "todototum"
@@ -29,15 +29,15 @@ class Todototum < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.0/todototum_1.0.0_linux_amd64.tar.gz"
-      sha256 "56a4a5084fb2369328a56a91740c3cc49fa53ad2e866b5a4201a84671babe60d"
+      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.1/todototum_1.0.1_linux_amd64.tar.gz"
+      sha256 "3ed9e464b7a33498b32e8a411702313392a3c586d82509d221571cf25739f4d3"
       def install
         bin.install "todototum"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.0/todototum_1.0.0_linux_arm64.tar.gz"
-      sha256 "6c0c01718aeeca6df9ee863f1de104877f0c1278171294496ad91e8b0136d185"
+      url "https://github.com/valerioTomassi/todototum/releases/download/v1.0.1/todototum_1.0.1_linux_arm64.tar.gz"
+      sha256 "0d07bf87cf61706e31c90b6bb631f3e49688ae7ca19ca411620dbd03bdfc197a"
       def install
         bin.install "todototum"
       end
