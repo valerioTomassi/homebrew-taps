@@ -1,0 +1,23 @@
+# macOS cruft
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors/IDEs
+.idea/
+.vscode/
+*.iml
+
+# Temporary, swap, and patch files
+*~
+*.swp
+*.swo
+*.tmp
+*.orig
+*.rej
+
+# Archives (not source)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
